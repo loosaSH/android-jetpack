@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:tag="layout/activity_main_0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView
+            android:gravity="center"
+            android:id="@id/tv_first_name"
+            android:tag="binding_1"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="8.0dip"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+            android:gravity="center"
+            android:id="@id/tv_last_name"
+            android:tag="binding_2"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="15.0dip"
+            app:layout_constraintTop_toBottomOf="@id/tv_first_name"/>
+    <Button
+            android:id="@id/btn_submit"
+            android:tag="binding_3"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="submit"
+            app:layout_constraintTop_toBottomOf="@id/tv_last_name"/>
+    <TextView
+            android:gravity="center"
+            android:id="@id/tv_times"
+            android:tag="binding_4"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="8.0dip"
+            app:layout_constraintTop_toBottomOf="@id/btn_submit"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
